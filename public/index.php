@@ -20,6 +20,26 @@ define("VIEWS",APP.DS."views");
 
 //===============================================================
 
+
+//================[Defind The settinig of website]==================
+
+define("SERVER","  localhost");  #the sever name
+
+define("DOMAIN","http://mvc-eg.test/");    #the domain name
+
+define("USERNAME","root"); #DataBase user
+
+define("PASS","");  #DataBase Password
+
+define("DB","");    #DataBase Name
+
+define("DB_TYPE","mysql");  #DataBase Type
+
+define("PORT",3306);  #DataBase Type
+
+//===============================================================
+
+
 //the outoload file from composer 
 
 require_once("../vendor/autoload.php");

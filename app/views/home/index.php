@@ -7,10 +7,6 @@
 </head>
 <body>
     <h1><?= $h1; ?></h1>
-    <ul>
-    <?php foreach($users as  $d):?>
-        <li><?= $d['username'];?></li>
-    <?php endforeach;?>
-    </ul>
+
 </body>
 </html>
